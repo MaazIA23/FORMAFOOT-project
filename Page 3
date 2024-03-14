@@ -1,0 +1,16 @@
+# Afficher les modules
+for module in contenu_json.get('structure', []):
+    print("Module:", module['module_titre'])
+    print("Chapitres dans ce module:")
+
+    # Afficher les chapitres dans les modules
+    for chapitre in module.get('chapitres', []):
+        print("\tChapitre:", chapitre['chapitre_titre'])
+        print("\tSous-chapitres dans ce chapitre:")
+
+        # Afficher les sous-chapitres dans les chapitres
+        for subchapitre in chapitre.get('subchapitre', []):
+            print("\t\tSous-chapitre:", subchapitre['subchapitre_titre'])
+            print("\t\tNombre de Documents dans ce sous-chapitre:", len(subchapitre.get('documents', [])))
+    
+    print()
