@@ -19,7 +19,7 @@ Le projet est divisé en plusieurs modules qui représentent différentes partie
 - **Module API** : Ce module contient les fonctions nécessaires pour interagir avec une API externe et récupérer des données de formation à partir de sources externes.
 
 
-## Installation
+## Installation 
 
 Pour installer et exécuter ce projet sur votre machine locale, suivez ces étapes :
 
