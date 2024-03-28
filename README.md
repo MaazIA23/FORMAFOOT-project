@@ -47,7 +47,7 @@ Les contributions à ce projet sont les bienvenues ! Si vous souhaitez contribue
 5. Poussez vos modifications sur GitHub (`git push origin feature/nouvelle-fonctionnalité`).
 6. Ouvrez une pull request pour discuter de vos modifications et les fusionner dans le projet principal.
 
-## Auteurs
+## Auteurs 
 
 Philipe Him
 Mazidath Bello
